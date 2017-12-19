@@ -1,0 +1,15 @@
+version: "3"
+services:
+  web:
+    image: jadog/docker-react
+    environment:
+     - APPNAME=react-app 
+     - REDUX=false
+     - MATERIAL_UI=false
+    ports:
+     - "3000:3000"
+     - "80:80"
+    expose:
+     - 80
+    volumes:
+          - C:\Development\react:/app
