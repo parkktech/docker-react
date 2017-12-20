@@ -23,8 +23,4 @@ fi
 
 
 cd /app/$APPNAME
-yarn
-
-
-
-yarn run start
+npm start
