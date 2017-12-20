@@ -1,5 +1,5 @@
 FROM node:latest 
-MAINTAINER dylanrhysscott 
+MAINTAINER jadog
 COPY docker-entrypoint.sh /
 COPY assets /assets
 RUN npm install -g create-react-app && \ 
