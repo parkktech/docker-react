@@ -20,7 +20,3 @@ if [ "$REDUX" = true ]; then
   yarn add redux react-redux
   yarn add redux-devtools --save-dev
 fi
-
-
-cd /app/$APPNAME
-yarn run start
